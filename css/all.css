@@ -344,6 +344,9 @@ input,button,textarea{
 .pe-3{
     padding-right: 3rem;
 }
+.pe-8{
+    padding-right: 15rem;
+}
 
 /*下*/
 .pb-05{
@@ -389,6 +392,15 @@ input,button,textarea{
 .position-fixed{
     position: fixed;
 }/*固定*/
+
+/* .container{
+    top: 0;
+    bottom: 0;
+    align-items: center;
+} */
+
+
+
 
 /*顯示*/
 
