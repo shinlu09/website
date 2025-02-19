@@ -32,6 +32,54 @@ input,button,textarea{
     background-color: transparent;
 }/*表單元素重置*/
 
+
+/*色彩計畫*/
+.text-red{
+    color:#904C77;
+}
+.text-gray{
+    color:#957D95;
+}
+.text-orange{
+    color:#FFAD8F;
+}
+.text-lightora{
+    color:#FFD6C0;
+}
+.text-white{
+    color:#EED9CD;
+}
+
+.bg-red{
+    background-color:hsl(322, 31%, 43%);
+}
+.bg-red-a{
+    background-color:hsla(322, 31%, 43%, 0.7);
+}
+.bg-gray{
+    background-color:#957D95;
+}
+.bg-gray{
+    background-color:#FFD6C0;
+}
+.bg-orange{
+    color:#FFAD8F;
+}
+.bg-white{
+    background-color:#EED9CD;
+}
+
+btn-red{
+    background-color:hsl(322, 31%, 43%);
+    color: #FFD6C0;
+}
+.btn-gray{
+    background-color:#FFD6C0;
+    color:#957D95 ;
+}
+
+
+
 /*寬度*/
 .w100,
 .flex-w-100 {
@@ -345,7 +393,7 @@ input,button,textarea{
     padding-right: 3rem;
 }
 .pe-8{
-    padding-right: 15rem;
+    padding-right: 13rem;
 }
 
 /*下*/
