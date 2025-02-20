@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>喵嚕喵嚕|首頁</title>
+    <link rel="icon" href="/image/circle_logo.png">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="bootstrap-5.3.3/css/bootstrap.min.css">
-
-
-   
     <!-- 自訂css -->
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
     <!--Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
-      <div class="container">
+      <div class="container align-items-center justify-content-center">
           <!-- 手機板 Logo -->
           <h1 class="d-lg-none d-inline-block col-6">
               <span class="d-none">喵嚕喵嚕</span>
@@ -42,34 +41,30 @@
                           data-bs-toggle="dropdown" aria-expanded="false">
                           飼養須知
                       </a>
-                      <ul class="dropdown-menu">
+                      <ul class="dropdown-menu ">
                           <li><a class="dropdown-item" href="#">飼養方式</a></li>
                           <li><a class="dropdown-item" href="#">家長分享</a></li>
                       </ul>
-                  </li>
-  
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#"role="button"
-                          data-bs-toggle="dropdown" aria-expanded="false">
-                          小貓找家
-                      </a>
-                      <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">浪浪小貓</a></li>
-                          <li><a class="dropdown-item" href="#">新生小貓</a></li>
-                      </ul>
-                  </li>
-  
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        小貓找家
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="#">浪浪小貓</a></li>
+                        <li><a class="dropdown-item" href="#">新生小貓</a></li>
+                    </ul>
+                    </li>
                   <li class="nav-item position-relative d-lg-block d-none">
                       <h1>
                           <span class="opacity-0">喵嚕喵嚕</span>
-                          <div class="position-absolute top-50 start-0">
+                          <div class="position-absolute top-30 start-01">
                               <a class="d-inline-block" href="index.html" title="回首頁">
-                                  <img src="image/圓logo.svg" alt="喵嚕商標">
+                                  <img src="image/circle_logo.svg" alt="喵嚕商標">
                               </a>
                           </div>
                       </h1>
-                  </li>
-  
+                    </li>
                   <li class="nav-item">
                       <a class="nav-link active nav-active" href="#">聯絡喵嚕</a>
                   </li>
@@ -77,16 +72,17 @@
                       <a class="nav-link active nav-active" href="#">其他品牌</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link active nav-active" href="#"><span class="icon-user"></span></a>
+                      <a class="nav-link active nav-active" href="#">
+                        <span class="icon-user"></span>會員登入</a>
+                        
                   </li>
               </ul>
           </div>
       </div>
-  </nav>
-  
+    </nav>
     <!-- 輪播 Banner -->
     <header>
-        <div id="top-banner" class="carousel slide" data-bs-ride="carousel">
+        <div id="top-banner" class="carousel slide pb-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="image/banner1.jpg" class="d-block w-100" alt="banner1">
@@ -110,6 +106,52 @@
             </button>
         </div>
     </header>
+
+    <!--主要內容-->
+    <main>
+        <!--關於喵嚕-->
+        <article id="about" class="py-7">
+            <div class="container position-relative">
+                <div class="d-flex">
+                    <!--banner-->
+                    <div class="position-absolute start-pc-about">
+                        <div >
+                            <img src="image/about-banner.svg" alt="關於喵嚕banner">
+                        </div>
+                    </div>
+                    <!--右邊內容-->
+                    <div class="position-absolute start-pc-word d-flex flex-column align-items-center text-center">
+                        <!--logo-->
+                        <div class="img-70"><img src="image/circle_logo.svg" alt="喵嚕商標">
+                        <span class="d-none">關於喵嚕</span>
+                        </div>
+                        <!--小標題-->
+                        <h5 class="py-3 fw-bold text-red fs-2">關於喵嚕</h5>
+                        <!--內容-->
+                        <div class="py-3 fw-bold text-gray fs-8">
+                            這是一段簡短的介紹文
+                            介紹介紹介紹介紹介紹介紹介紹介紹介紹介
+                            介紹介紹介紹介紹介紹介紹介紹介紹介紹介
+                            紹介紹介紹介紹介紹介紹介紹介紹介紹介紹
+                            介紹介紹介紹介紹介紹介紹介紹介紹介紹介
+                            介紹介紹介紹介紹介紹介紹介紹介紹介紹介
+                            介紹介紹介紹介紹介紹介紹介紹介紹介紹介
+                        </div>
+                        <!--按鈕-->
+                        <button class="btn btn-red px-4" type="submit">預約賞貓</button>
+                     
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!--更多資訊-->
+        <article id="more-news" class="py-7">
+
+        </article>
+
+    </main>
 
     <!-- js -->
   <script src="bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>

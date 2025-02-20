@@ -3,6 +3,9 @@
 img{
     width:100%
 }
+.img-70{
+    width: 50%;
+}
 /*色彩計畫*/
 .text-red{
     color:#904C77;
@@ -38,20 +41,30 @@ img{
 .bg-white{
     background-color:#EED9CD;
 }
+
+/*按鈕設置*/
 btn-red{
-    background-color:hsl(322, 31%, 43%);
-    color: #FFD6C0;
+
+    background-color:hsl(322, 31%, 43%) !important;
 }
 .btn-gray{
     background-color:#FFD6C0;
     color:#957D95 ;
 }
 
+
+
 /*top-head設計*/
 
 /*logo上方間隔*/
 h1{
     font-size: calc(1.35rem + 0.55vw);
+}
+.top-30{
+    top: 30%;
+}
+.start-01 {
+    left: 1 !important;
 }
 
 /*nav背景透明設置*/
@@ -62,8 +75,8 @@ h1{
 
 /*nav連結文字設置重製*/
 .navbar-nav .nav-link.active,.nav-link.show,.nav-item,.nav-link{ 
-    padding: 1rem 1.5rem;
-    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.85rem;
     font-weight: 900;
     color: #FFD6C0;
     letter-spacing: 2px;
@@ -77,5 +90,54 @@ h1{
     color: #3d1919;
 }
 
+/*分類按鈕設置*/
 
+.filter-btn li{
+    border-radius: none;
+    color: #5A0001
+}
+
+/*使最後一個按鈕間隔取消*/
+.filter-btn li:last-of-type{
+   margin-right: 0;
+}
+
+/*標籤按鈕滑動設置*/
+.dropdown-menu{
+
+    --bs-dropdown-min-width: 7rem;
+    font-weight: 400 !important;
+    --bs-dropdown-color:#5A0001 !important;
+    --bs-dropdown-bg: #FFD6C0;
+    --bs-dropdown-border-width: 0;
+}
+
+.dropdown-item {
+    color: #5A0001;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 70%;
+    left: 22px;
+}
+
+/*about 欄位設置*/
+
+/*修改banner與main間的間距*/
+.py-7 {
+    padding-top: 4rem !important;
+    padding-bottom: 5rem !important
+}
+
+/*about-banner設置*/
+.start-pc-about{
+
+    left: -65px;
+    width: 65%;
+}
+.start-pc-word{
+
+    left: 750px;
+    top:-15px;
+}
 
