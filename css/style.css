@@ -141,3 +141,16 @@ h1{
     top:-15px;
 }
 
+/*more-news欄位設置*/
+
+/*拉開與about的間隔*/
+.mt-news{
+
+    margin-top: 35rem !important;
+}
+
+.text-news{
+
+    color: #5A0001 !important;
+}
+
