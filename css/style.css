@@ -67,6 +67,16 @@ btn-red{
 
 /*top-head設計*/
 
+/*nav位置調整*/
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    left: 0;
+    z-index: 1030;
+}
+
 /*logo上方間隔*/
 h1{
     font-size: calc(1.35rem + 0.55vw);
@@ -144,13 +154,13 @@ h1{
 /*about-banner設置*/
 .start-pc-about{
 
-    left: -65px;
-    width: 65%;
+    left: -205px;
+    width: 70%;
 }
 .start-pc-word{
 
-    left: 750px;
-    top:-15px;
+    left: 790px;
+    top:10px;
 }
 
 /*more-news欄位設置*/

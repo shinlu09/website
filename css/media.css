@@ -1,3 +1,5 @@
+
+
 @media (min-width:768px){
 
     /*about-banner設置*/
@@ -5,14 +7,21 @@
 
     left: -65px;
     width: 65%;
-}
+    }
     .start-ph-word{
 
     left: 820px;
     top:-65px;
-}
+    }
 
 }
+
+
+/*平板橫向介面設置*/
+@media (min-width:992px){
+ 
+}
+
 
 /*設置成版面在大於1400px時,畫面版面固定大小為1320px*/
 @media (min-width:1400px){
@@ -24,7 +33,21 @@
 }
 @media (min-width:14600px){
 
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: -190px;
+        left: 0;
+        z-index: 1030;
+    }
     .box{
         max-width: 1320px;
     }
 }
+
+@media (max-width:991px){
+
+
+}
+
+
