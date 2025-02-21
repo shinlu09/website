@@ -14,7 +14,7 @@
 <body>
 
     <!--Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+    <nav id="top-nav" class="navbar navbar-expand-lg fixed-top navbar-custom">
       <div class="container align-items-center justify-content-center">
           <!-- 手機板 Logo -->
           <h1 class="d-lg-none d-inline-block col-6">
@@ -147,10 +147,11 @@
         </article>
 
         <!--更多資訊-->
-        <article id="more-news" class="py-7 mt-news">
+        <article id="more-news" class="py-7 mt-news more-news">
             <div class="container">
-                <h2 class="text-center fw-bold text-red">More News</h2>
-                <ul class="nav nav-tabs justify-content-center text-news">
+                <h2 class="text-center pb-3 "><div class="text-title">More News</div></h2>
+                <!--標籤按鈕-->
+                <ul class="nav nav-tabs justify-content-center align-items-center">
                     <li class="nav-item">
                         <a class="nav-link active" data-bs-toggle="tab" href="#service">服務項目</a>
                     </li>
@@ -164,15 +165,37 @@
                         <a class="nav-link" data-bs-toggle="tab" href="#feeding">飼養方式</a>
                     </li>
                 </ul>
-    
-                <div class="tab-content mt-3">
-                    <div id="home" class="tab-pane fade show active">
-                        <div class="d-flex flex-column align-items-center p-3">
-                        <h3>HOME</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <!--服務內容-->
+                <div class="tab-content mt-3 ">
+                    <div id="service" class=" fade show active d-flex justify-content-center">
+                        <!--服務1-->
+                        <div class="d-flex align-items-center justify-content-center mt-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="service">
+                                <div class="card-body">
+                                    <div class="text-center fw-bold">幼貓體內外驅蟲</div>
+                                    <p class="card-text fs-8 text-center">包含體內、體外驅蟲，將根據幼貓的生活環境、
+                                    健康狀況提供個人化驅蟲建議，確保長期防護效果。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--服務2-->
+                        <div class="d-flex align-items-center justify-content-center mt-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="service">
+                                <div class="card-body">
+                                    <div class="text-center fw-bold">免費晶片植入、移轉登記</div>
+                                    <p class="card-text fs-8 text-center">提供晶片使用方式、法規說明及遺失寵物處理建議
+                                    ，建議洽詢當地動物保護機構或獸醫院了解詳情。
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
+                
             </div>
         </article>
     </main>

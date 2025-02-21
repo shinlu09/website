@@ -23,6 +23,17 @@ img{
     color:#EED9CD;
 }
 
+/*標題設定*/
+.text-title{
+    color: #EED9CD;
+    background-color:#957D95 ;
+    font-weight: bold; /* 調整字體粗細 */
+    font-size: 1.75rem; /* 修正 font-weight 誤用 */
+    padding: 15px 25px; /* 控制內距，讓左右邊框更窄 */
+    border-radius: 4rem;
+    display: inline-block; /* 讓背景只包住文字，不撐滿 */
+}
+
 .bg-red{
     background-color:hsl(322, 31%, 43%);
 }
@@ -32,7 +43,7 @@ img{
 .bg-gray{
     background-color:#957D95;
 }
-.bg-gray{
+.bg-lightoragn{
     background-color:#FFD6C0;
 }
 .bg-orange{
@@ -79,6 +90,7 @@ h1{
     font-size: 0.85rem;
     font-weight: 900;
     color: #FFD6C0;
+    background-color: transparent !important;
     letter-spacing: 2px;
 }
 /*nav連結文字滑鼠滑過效果*/
@@ -144,13 +156,44 @@ h1{
 /*more-news欄位設置*/
 
 /*拉開與about的間隔*/
+
 .mt-news{
 
-    margin-top: 35rem !important;
+    margin-top: 30rem !important;
 }
 
-.text-news{
 
-    color: #5A0001 !important;
+/*標籤按鈕設置*/
+
+#more-news .nav-tabs .nav-link {
+    color: #957D95 !important; /* 深色文字 */
+    border: none !important;
+    font-weight: bold; /* 調整字體粗細 */
+    font-size: 0.95rem;
 }
+
+#more-news .nav-tabs .nav-link:hover{
+    color: #be6c82 !important; /* 深色文字 */
+    border: none !important;
+}
+
+#more-news .nav-tabs .nav-link.active {
+    color: #c83f8c !important; /* active 文字更深 */
+    border: none !important;
+}
+
+/*按鈕與內容間格線設置*/
+
+.nav-tabs {
+    border-bottom: 2px solid #be6c82 !important; /* 加粗底線 */
+    width:75%; /* 縮短線條長度 */
+    margin: 0 auto; /* 置中 */
+}
+
+/*內容格線設置*/
+
+.card{
+    --bs-card-border-width: none;
+}
+
 
