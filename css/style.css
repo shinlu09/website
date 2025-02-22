@@ -33,6 +33,15 @@ img{
     border-radius: 4rem;
     display: inline-block; /* 讓背景只包住文字，不撐滿 */
 }
+#contact .text-title{
+    color: #783f63;
+    background-color:#FFAD8F ;
+    font-weight: bold; /* 調整字體粗細 */
+    font-size: 1.75rem; /* 修正 font-weight 誤用 */
+    padding: 15px 30px; /* 控制內距，讓左右邊框更窄 */
+    border-radius: 3rem;
+    display:inline-block; /* 讓背景只包住文字，不撐滿 */
+}
 
 .bg-red{
     background-color:hsl(322, 31%, 43%);
@@ -54,13 +63,43 @@ img{
 }
 
 /*按鈕設置*/
-btn-red{
-
+.btn-red{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #FFD6C0;
     background-color:hsl(322, 31%, 43%) !important;
+    border-radius: 25px;
 }
 .btn-gray{
     background-color:#FFD6C0;
     color:#957D95 ;
+}
+
+.btn-red:hover{
+    font-weight: 600;
+    color: hsl(322, 31%, 43%);
+    background-color:#FFD6C0 !important;
+    border-radius: 30px;
+}
+
+
+/*連結設定*/
+
+a{
+    color: #FFAD8F;
+    font-weight: 3rem !important;
+   
+}
+
+/*表格框設定*/
+
+.form-control{
+
+    width: 95%;
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 2.5rem;
+    background-color: rgba(240, 248, 255, 0.719);
 }
 
 
@@ -159,7 +198,7 @@ h1{
 }
 .start-pc-word{
 
-    left: 790px;
+    left: 990px;
     top:10px;
 }
 
@@ -169,7 +208,7 @@ h1{
 
 .mt-news{
 
-    margin-top: 30rem !important;
+    margin-top: 45rem !important;
 }
 
 
