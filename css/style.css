@@ -108,8 +108,20 @@ a{
 
 /*nav位置調整*/
 
+
+/*index頁首設定*/
 .fixed-top {
     position: fixed;
+    top: 0;
+    right: -250px;
+    left: 0;
+    z-index: 1030;
+}
+
+/*其他頁面頁首設定*/
+
+.otherpage-top{
+
     top: 0;
     right: -250px;
     left: 0;
